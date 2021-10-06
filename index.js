@@ -28,9 +28,9 @@ https://marak.github.io/faker.js/#toc7__anchor
     let ArrayLevel = ["GOLD", "PLATINUM", "ZAFIR", "VIP", "BASIC", "JR"];
     
 
-
+    let numberTest = 10; //-Numero de registros a generar
     let arrayData = [];
-    for (var i = 0; i < 300; i++) {
+    for (var i = 0; i < numberTest; i++) {
 
         let randomAirline = ArrayAirlines[faker.random.number({'min': 1,'max': 11})];
         let randomTicketClass = ArrayTicketClass[faker.random.number({'min': 1,'max': 7})];

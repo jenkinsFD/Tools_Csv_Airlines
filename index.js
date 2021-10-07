@@ -80,8 +80,7 @@ https://marak.github.io/faker.js/#toc7__anchor
 
     
        
-    
-     
+   
     var textCsv = Papa.unparse(arrayData);
 
     fs.writeFile(nameFile, textCsv, (error) => {
